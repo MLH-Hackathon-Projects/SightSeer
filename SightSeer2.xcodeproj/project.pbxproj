@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01AF66629E5B96B00476A4B /* SightSeer2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF66529E5B96B00476A4B /* SightSeer2App.swift */; };
+		D01AF66829E5B96B00476A4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF66729E5B96B00476A4B /* ContentView.swift */; };
+		D01AF66A29E5B96E00476A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01AF66929E5B96E00476A4B /* Assets.xcassets */; };
+		D01AF66D29E5B96E00476A4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01AF66C29E5B96E00476A4B /* Preview Assets.xcassets */; };
+		D01AF67729E5B96E00476A4B /* SightSeer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF67629E5B96E00476A4B /* SightSeer2Tests.swift */; };
+		D01AF68129E5B96E00476A4B /* SightSeer2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF68029E5B96E00476A4B /* SightSeer2UITests.swift */; };
+		D01AF68329E5B96E00476A4B /* SightSeer2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF68229E5B96E00476A4B /* SightSeer2UITestsLaunchTests.swift */; };
+		D01AF69029E5BB9E00476A4B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF68F29E5BB9E00476A4B /* SettingsView.swift */; };
+		D01AF69229E5BBC500476A4B /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF69129E5BBC500476A4B /* Camera.swift */; };
+		D0710F1D29E6054C0086D920 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0710F1C29E6054C0086D920 /* CameraView.swift */; };
+		D0710F1F29E6132E0086D920 /* VoiceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0710F1E29E6132D0086D920 /* VoiceOperation.swift */; };
+		D0710F2129EA07830086D920 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0710F2029EA07830086D920 /* Microphone.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01AF67329E5B96E00476A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01AF65A29E5B96B00476A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01AF66129E5B96B00476A4B;
+			remoteInfo = SightSeer2;
+		};
+		D01AF67D29E5B96E00476A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01AF65A29E5B96B00476A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01AF66129E5B96B00476A4B;
+			remoteInfo = SightSeer2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D01AF66229E5B96B00476A4B /* SightSeer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightSeer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01AF66529E5B96B00476A4B /* SightSeer2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSeer2App.swift; sourceTree = "<group>"; };
+		D01AF66729E5B96B00476A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		D01AF66929E5B96E00476A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01AF66C29E5B96E00476A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D01AF67229E5B96E00476A4B /* SightSeer2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightSeer2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01AF67629E5B96E00476A4B /* SightSeer2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSeer2Tests.swift; sourceTree = "<group>"; };
+		D01AF67C29E5B96E00476A4B /* SightSeer2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightSeer2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01AF68029E5B96E00476A4B /* SightSeer2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSeer2UITests.swift; sourceTree = "<group>"; };
+		D01AF68229E5B96E00476A4B /* SightSeer2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSeer2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D01AF68F29E5BB9E00476A4B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D01AF69129E5BBC500476A4B /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		D0710F1B29E5EB500086D920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D0710F1C29E6054C0086D920 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		D0710F1E29E6132D0086D920 /* VoiceOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOperation.swift; sourceTree = "<group>"; };
+		D0710F2029EA07830086D920 /* Microphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01AF65F29E5B96B00476A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF66F29E5B96E00476A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67929E5B96E00476A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01AF65929E5B96B00476A4B = {
+			isa = PBXGroup;
+			children = (
+				D01AF66429E5B96B00476A4B /* SightSeer2 */,
+				D01AF67529E5B96E00476A4B /* SightSeer2Tests */,
+				D01AF67F29E5B96E00476A4B /* SightSeer2UITests */,
+				D01AF66329E5B96B00476A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01AF66329E5B96B00476A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF66229E5B96B00476A4B /* SightSeer2.app */,
+				D01AF67229E5B96E00476A4B /* SightSeer2Tests.xctest */,
+				D01AF67C29E5B96E00476A4B /* SightSeer2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01AF66429E5B96B00476A4B /* SightSeer2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0710F1B29E5EB500086D920 /* Info.plist */,
+				D01AF66529E5B96B00476A4B /* SightSeer2App.swift */,
+				D01AF66729E5B96B00476A4B /* ContentView.swift */,
+				D01AF68F29E5BB9E00476A4B /* SettingsView.swift */,
+				D0710F1C29E6054C0086D920 /* CameraView.swift */,
+				D01AF69129E5BBC500476A4B /* Camera.swift */,
+				D0710F2029EA07830086D920 /* Microphone.swift */,
+				D0710F1E29E6132D0086D920 /* VoiceOperation.swift */,
+				D01AF66929E5B96E00476A4B /* Assets.xcassets */,
+				D01AF66B29E5B96E00476A4B /* Preview Content */,
+			);
+			path = SightSeer2;
+			sourceTree = "<group>";
+		};
+		D01AF66B29E5B96E00476A4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF66C29E5B96E00476A4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D01AF67529E5B96E00476A4B /* SightSeer2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF67629E5B96E00476A4B /* SightSeer2Tests.swift */,
+			);
+			path = SightSeer2Tests;
+			sourceTree = "<group>";
+		};
+		D01AF67F29E5B96E00476A4B /* SightSeer2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF68029E5B96E00476A4B /* SightSeer2UITests.swift */,
+				D01AF68229E5B96E00476A4B /* SightSeer2UITestsLaunchTests.swift */,
+			);
+			path = SightSeer2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01AF66129E5B96B00476A4B /* SightSeer2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01AF68629E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSeer2" */;
+			buildPhases = (
+				D01AF65E29E5B96B00476A4B /* Sources */,
+				D01AF65F29E5B96B00476A4B /* Frameworks */,
+				D01AF66029E5B96B00476A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightSeer2;
+			productName = SightSeer2;
+			productReference = D01AF66229E5B96B00476A4B /* SightSeer2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01AF67129E5B96E00476A4B /* SightSeer2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01AF68929E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSeer2Tests" */;
+			buildPhases = (
+				D01AF66E29E5B96E00476A4B /* Sources */,
+				D01AF66F29E5B96E00476A4B /* Frameworks */,
+				D01AF67029E5B96E00476A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01AF67429E5B96E00476A4B /* PBXTargetDependency */,
+			);
+			name = SightSeer2Tests;
+			productName = SightSeer2Tests;
+			productReference = D01AF67229E5B96E00476A4B /* SightSeer2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D01AF67B29E5B96E00476A4B /* SightSeer2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01AF68C29E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSeer2UITests" */;
+			buildPhases = (
+				D01AF67829E5B96E00476A4B /* Sources */,
+				D01AF67929E5B96E00476A4B /* Frameworks */,
+				D01AF67A29E5B96E00476A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01AF67E29E5B96E00476A4B /* PBXTargetDependency */,
+			);
+			name = SightSeer2UITests;
+			productName = SightSeer2UITests;
+			productReference = D01AF67C29E5B96E00476A4B /* SightSeer2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01AF65A29E5B96B00476A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D01AF66129E5B96B00476A4B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D01AF67129E5B96E00476A4B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D01AF66129E5B96B00476A4B;
+					};
+					D01AF67B29E5B96E00476A4B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D01AF66129E5B96B00476A4B;
+					};
+				};
+			};
+			buildConfigurationList = D01AF65D29E5B96B00476A4B /* Build configuration list for PBXProject "SightSeer2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D01AF65929E5B96B00476A4B;
+			productRefGroup = D01AF66329E5B96B00476A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01AF66129E5B96B00476A4B /* SightSeer2 */,
+				D01AF67129E5B96E00476A4B /* SightSeer2Tests */,
+				D01AF67B29E5B96E00476A4B /* SightSeer2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01AF66029E5B96B00476A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01AF66D29E5B96E00476A4B /* Preview Assets.xcassets in Resources */,
+				D01AF66A29E5B96E00476A4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67029E5B96E00476A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67A29E5B96E00476A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01AF65E29E5B96B00476A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01AF69229E5BBC500476A4B /* Camera.swift in Sources */,
+				D01AF69029E5BB9E00476A4B /* SettingsView.swift in Sources */,
+				D01AF66829E5B96B00476A4B /* ContentView.swift in Sources */,
+				D0710F1D29E6054C0086D920 /* CameraView.swift in Sources */,
+				D0710F1F29E6132E0086D920 /* VoiceOperation.swift in Sources */,
+				D0710F2129EA07830086D920 /* Microphone.swift in Sources */,
+				D01AF66629E5B96B00476A4B /* SightSeer2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF66E29E5B96E00476A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01AF67729E5B96E00476A4B /* SightSeer2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67829E5B96E00476A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01AF68329E5B96E00476A4B /* SightSeer2UITestsLaunchTests.swift in Sources */,
+				D01AF68129E5B96E00476A4B /* SightSeer2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01AF67429E5B96E00476A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01AF66129E5B96B00476A4B /* SightSeer2 */;
+			targetProxy = D01AF67329E5B96E00476A4B /* PBXContainerItemProxy */;
+		};
+		D01AF67E29E5B96E00476A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01AF66129E5B96B00476A4B /* SightSeer2 */;
+			targetProxy = D01AF67D29E5B96E00476A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D01AF68429E5B96E00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D01AF68529E5B96E00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01AF68729E5B96F00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SightSeer2/Preview Content\"";
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SightSeer2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SightSense;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SightSense.SightSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D01AF68829E5B96F00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SightSeer2/Preview Content\"";
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SightSeer2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SightSense;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SightSense.SightSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D01AF68A29E5B96F00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightSeer2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightSeer2";
+			};
+			name = Debug;
+		};
+		D01AF68B29E5B96F00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightSeer2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightSeer2";
+			};
+			name = Release;
+		};
+		D01AF68D29E5B96F00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SightSeer2;
+			};
+			name = Debug;
+		};
+		D01AF68E29E5B96F00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SightSeer2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01AF65D29E5B96B00476A4B /* Build configuration list for PBXProject "SightSeer2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68429E5B96E00476A4B /* Debug */,
+				D01AF68529E5B96E00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01AF68629E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSeer2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68729E5B96F00476A4B /* Debug */,
+				D01AF68829E5B96F00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01AF68929E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSeer2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68A29E5B96F00476A4B /* Debug */,
+				D01AF68B29E5B96F00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01AF68C29E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSeer2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68D29E5B96F00476A4B /* Debug */,
+				D01AF68E29E5B96F00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01AF65A29E5B96B00476A4B /* Project object */;
+}
